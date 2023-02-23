@@ -1,0 +1,3 @@
+
+
+import './sliderStyles.module.css'
