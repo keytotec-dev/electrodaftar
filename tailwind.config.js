@@ -11,5 +11,11 @@ module.exports = {
     theme: {
       extend: {},
     },
+    fontFamily:{
+        IranSans:'IranSans' ,
+        IranYekan:'IranYekan' ,
+        DanaNum:'DanaNum',
+        Bnaz:'BNaz'
+     },
     plugins: [],
   }

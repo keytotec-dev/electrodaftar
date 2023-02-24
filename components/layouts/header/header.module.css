@@ -1,0 +1,26 @@
+
+
+.headerStyles{
+    font-family:IranYekan;
+}
+
+
+.signbtns:hover{
+    border: 1px solid #FF7A09;
+    transition: 0.3s;
+    color: #FF7A09;
+    cursor: pointer;
+    
+}
+
+.navbarstyle{
+    padding-bottom:1px ;
+}
+
+.navbarstyle:hover{
+    color: #FF7A09;
+    transition: 0.3s;
+    border-bottom: 1px solid #FF7A09;
+    cursor: pointer;
+
+}

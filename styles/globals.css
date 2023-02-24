@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
-    direction: rtl;
+html {
+  direction: rtl;
+}
+body {
+  font-family: IranSans;
+}
+
+@font-face {
+  font-family: "IranYekan";
+  src: url(../public/fonts/IRANYekanRegular.ttf);
+}
+@font-face {
+  font-family: "IranSans";
+  src: url(../public/fonts/IRANSansRegular.ttf);
+}
+@font-face {
+  font-family: "DanaNum";
+  src: url(../public/fonts/DanaFaNum-Regular.ttf);
+}
+@font-face {
+  font-family: "BNaz";
+  src: url(../public/fonts/BNazanin/BNazanin.ttf);
 }
