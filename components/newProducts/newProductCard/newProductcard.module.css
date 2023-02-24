@@ -1,0 +1,16 @@
+.newProductcard{
+    transition: 0.3s;
+}
+
+.newProductcard:hover {
+  -webkit-box-shadow: 0px 0px 13px 0px rgba(150, 150, 150, 1);
+  -moz-box-shadow: 0px 0px 13px 0px rgba(150, 150, 150, 1);
+  box-shadow: 0px 0px 13px 0px rgba(150, 150, 150, 1);
+  transition: 0.3s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+/* .newProductcard:hover .productimg{
+    transform: scale(1.1);
+    transition: 0.3s;
+} */

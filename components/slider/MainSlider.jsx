@@ -1,13 +1,14 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import Slid1 from '../../public/images/mainslider/person1.jpg'
+import slid1 from '../../public/images/mainslider/slid1.jpg';
+import slid2 from '../../public/images/mainslider/slid2.jpg';
+import slid3 from '../../public/images/mainslider/slid3.jpg';
 // Import Swiper styles
 import "swiper/swiper.css";
 import "swiper/css/pagination";
 
 import "./MainSliderStyles.module.css";
-
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 import Image from "next/image";
@@ -34,10 +35,13 @@ export default function MainSlider() {
         className="mySwiper"
       >
         <SwiperSlide>
-        <SlidContent image="https://thecaferobot.com/store/pub/media/logo/stores/1/cafe-robot-logo-new-color-dark-small.png"/>
+        <SlidContent image={slid1}/>
         </SwiperSlide>
         <SwiperSlide>
-        <SlidContent image="https://jssors8.azureedge.net/demos/image-slider/img/faded-monaco-scenery-evening-dark-picjumbo-com-image.jpg"/>
+        <SlidContent image={slid2}/>
+        </SwiperSlide>
+        <SwiperSlide>
+        <SlidContent image={slid3}/>
         </SwiperSlide>
       </Swiper>
     </div>
