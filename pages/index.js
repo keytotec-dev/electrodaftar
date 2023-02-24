@@ -10,9 +10,9 @@ export default function Home() {
         <div className="w-full">
             <Header />
             <Sidbar />
-            <main className='w-full mt-20 md:mt-28'>
-                <section className='grid grid-cols-10'>
-                    <div className='col-span-7 md:col-span-8 h-screen overflow-y-scroll border'>
+            <main className='w-full mt-20 shadow md:mt-28'>
+                <section className='grid grid-cols-10 mx-2'>
+                    <div className='col-span-7 md:col-span-8  border'>
                         <MainSlider />
                         <NewProducts />
                         
@@ -21,7 +21,7 @@ export default function Home() {
                     <div className='col-span-3 md:col-span-2 border h-screen overflow-y-scroll'>
                         <NewArticles />
                     </div>
-                    <div className='relative'>
+                    <div className='relative mt-12'>
                             
                             <hr className='border border-[#FF7A09]' />
                             <div className='absolute text-sm text-white bg-[#FF7A09] p-2'>محصولات منتخب</div>
