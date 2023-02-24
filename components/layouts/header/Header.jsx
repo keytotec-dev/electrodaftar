@@ -57,7 +57,7 @@ export default function Header() {
           </div>
           <hr className="w-6 border rotate-90" />
           <FaShoppingBasket size={25} color="#FF7A09" />
-          <FaChevronDown color="gray" size={12} />
+          <FaChevronDown color="gray" size={13} />
         </div>
       </div>
       <div className="hidden md:block">
